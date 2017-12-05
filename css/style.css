@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    /* margin: 0;
+    padding: 0; */
+}
+body{
+    font-family:  Tahoma,'Segoe UI', Geneva, Verdana, sans-serif;
+}
+.section{
+    margin: 80px auto;
+    padding: 0 10%;
+}
+.header{
+    font-size: 24px;
+    display: block;
+    text-align: center;
+}
+.header span{
+    font-weight: 300;
+    display: block;
+}
+.header strong{
+    font-weight: 900;
+
+}
+.main{
+    margin-top: 80px;
+    text-align: center;
+    border: 2px solid red;
+}
+.video, .form{
+    display: inline-block;
+    vertical-align: top;
+}
+.form{
+    text-align: center;
+    border: 5px solid #2727d9;
+    margin-left: 20px;
+}
+.form p{
+    font-weight: 900;
+    margin-top: 20px 0;
+}
+.form input{
+    display: block;
+    margin: 10px 20px 0 20px;
+    padding: 20px;
+    width: 300px;
+
+}
+.send-button{
+    padding: 20px 50px;
+    color: #fff;
+    background-color: #2727d9;
+    width: 300px;
+    margin: 10px auto;
+    display: block;
+    font-size: 18px;
+}
+
+.feature-header{
+    text-align: center
+}
+
+.feature{
+    text-align: center;
+    border: 2px solid red;
+}
+
+.col{
+    display: inline-block;
+    margin: 30px 25px;
+}
+
+.col p{
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.clients{
+    text-align: center;
+    border: 2px solid red;
+}
