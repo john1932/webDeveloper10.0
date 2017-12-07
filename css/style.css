@@ -6,3 +6,22 @@
 @danger:#ff0000;
 @bg-light:#f5f5f5;
 @light:#fff;
+
+
+/*basic settings*/
+
+html{
+  font-style: 10px;
+}
+
+/*typography*/
+
+section{
+  padding: 10rem 0px;
+}
+
+/*main*/
+
+main{
+  padding: 3rem 0px;
+}
