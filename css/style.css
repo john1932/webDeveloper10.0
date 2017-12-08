@@ -4,10 +4,15 @@ html {
   font-size: 10px;
   font-family: Tahoma, 'Segoe UI', Geneva, Verdana, sans-serif;
 }
+.header {
+  height: 7rem;
+}
 .phone-link {
   display: inline-block;
   color: #1a1820;
   font-weight: 900;
+  height: 7rem;
+  line-height: 7rem;
 }
 .button {
   background-color: #fab002;
