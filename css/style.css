@@ -39,7 +39,7 @@ body {
 .phone-link {
   display: inline-block;
   color: #1a1820;
-  font-weight: 900;
+  font-family: 'Proxima-Nova--bold';
   height: 7rem;
   font-size: 2rem;
   line-height: 7rem;
@@ -48,6 +48,7 @@ body {
   background-color: #fab002;
   color: #ffffff;
   padding: 1rem 3rem;
+  font-size: 1.2rem;
   border-radius: 8px;
   border: none;
   text-transform: uppercase;
@@ -57,6 +58,40 @@ section {
   padding: 10rem 0px;
 }
 /*main*/
-main {
+.main {
   padding: 3rem 0px;
+}
+.main-content {
+  margin-top: 10rem;
+}
+.main-content h1 {
+  margin-bottom: 4rem;
+  font-family: 'Proxima-Nova--bold';
+  font-size: 4rem;
+  text-transform: uppercase;
+  line-height: 1.45;
+  color: #1a1820;
+}
+.main-subtitle {
+  font-size: 2.4rem;
+  margin-bottom: 4rem;
+}
+.main span {
+  display: inline-block;
+  padding: 2rem 4rem;
+  background-color: #46b914;
+  font-size: 1.8rem;
+  text-align: center;
+  color: #ffffff;
+}
+.main span strong {
+  font-size: 3rem;
+  font-family: 'Proxima-Nova--bold';
+}
+.main-trigger {
+  font-size: 2.2rem;
+  font-family: 'Proxima-Nova--bold';
+  display: block;
+  text-transform: uppercase;
+  margin-top: 3rem;
 }
