@@ -12,9 +12,6 @@
   font-weight: normal;
   font-style: normal;
 }
-.bold {
-  font-family: 'Proxima-Nova--bold';
-}
 /*colors*/
 /*basic settings*/
 html {
@@ -48,6 +45,14 @@ body {
   font-size: 2rem;
   line-height: 7rem;
 }
+a:hover {
+  text-decoration: none;
+}
+button:focus,
+input:focus,
+a:focus {
+  outline: none;
+}
 .button {
   background-color: #fab002;
   color: #ffffff;
@@ -56,6 +61,12 @@ body {
   border-radius: 8px;
   border: none;
   text-transform: uppercase;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: #e19e02;
 }
 /*typography*/
 section {
@@ -138,4 +149,27 @@ section {
 .main-form small {
   display: block;
   margin-top: 1.5rem;
+}
+@media (max-width: 991px) {
+  .phone-block {
+    text-align: center;
+  }
+  .main-content {
+    margin-top: 3rem;
+  }
+  .main-title {
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+}
+@media (max-width: 767px) {
+  .main {
+    background-position: top left;
+  }
+  .header {
+    text-align: center;
+  }
+  .wrap__block {
+    text-align: center;
+  }
 }
